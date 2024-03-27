@@ -1,0 +1,13 @@
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: huber-th
+      url-base: https://github.com/huber-th
+  projects:
+    - name: zmk
+      remote: huber-th
+      revision: adv360-personal
+      import: app/west.yml
+  self:
+    path: config
