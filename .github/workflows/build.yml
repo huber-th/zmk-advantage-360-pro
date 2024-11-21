@@ -5,6 +5,7 @@ name: Build
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: dev
     container:
       image: zmkfirmware/zmk-build-arm:stable
     name: Build
